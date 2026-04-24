@@ -9,6 +9,14 @@
   <link rel="icon" type="image/x-icon" href="../assets/Farshad-Ghorbani.svg">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link rel="stylesheet" href="../styles/style.css">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
 </head>
 
 <body>
@@ -16,8 +24,13 @@
     <header class="page-header">
       <a href="../index.html" class="back-link">&larr; blog</a>
       <h1>Hello, world</h1>
-      <p class="post-date">2026-04-24</p>
+      <div class="theme-toggle" role="group" aria-label="Theme">
+        <button type="button" data-theme="light" title="Light theme">&#9788;</button>
+        <button type="button" data-theme="dark" title="Dark theme">&#9790;</button>
+      </div>
     </header>
+
+    <p class="post-date">2026-04-24</p>
 
     <article class="post">
       <p>
@@ -31,6 +44,8 @@
       </p>
     </article>
   </main>
+
+  <script src="../scripts/theme.js"></script>
 </body>
 
 </html>

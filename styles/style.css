@@ -1,6 +1,30 @@
+:root {
+  --bg: #fdc114;
+  --fg: #ffffff;
+  --muted: rgba(255, 255, 255, 0.85);
+  --rule: rgba(255, 255, 255, 0.5);
+  --code-bg: rgba(0, 0, 0, 0.15);
+  --btn-bg: rgba(0, 0, 0, 0.12);
+  --btn-border: rgba(255, 255, 255, 0.6);
+  --accent: #ffffff;
+}
+
+[data-theme="dark"] {
+  --bg: #111111;
+  --fg: #e8e8e8;
+  --muted: rgba(232, 232, 232, 0.7);
+  --rule: rgba(232, 232, 232, 0.25);
+  --code-bg: rgba(255, 255, 255, 0.08);
+  --btn-bg: rgba(255, 255, 255, 0.06);
+  --btn-border: rgba(232, 232, 232, 0.4);
+  --accent: #fdc114;
+}
+
+html, body { height: 100%; }
+
 body {
-  background: #fdc114;
-  color: #FFF;
+  background: var(--bg);
+  color: var(--fg);
   font-family: 'VT323', sans-serif;
   margin: 0;
 }
@@ -12,21 +36,56 @@ body {
   font-size: 22px;
 }
 
+.page-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
 .page-header h1 {
   font-weight: normal;
   font-size: 48px;
   margin: 8px 0 16px;
+  flex: 1 1 auto;
 }
 
 .back-link {
-  color: #FFF;
+  color: var(--fg);
   text-decoration: none;
   font-size: 20px;
   opacity: 0.9;
 }
 
-.back-link:hover {
-  opacity: 1;
+.back-link:hover { opacity: 1; }
+
+.theme-toggle {
+  display: inline-flex;
+  border: 1px solid var(--btn-border);
+  border-radius: 4px;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+.theme-toggle button {
+  font-family: inherit;
+  font-size: inherit;
+  background: transparent;
+  color: var(--fg);
+  border: 0;
+  padding: 4px 10px;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.theme-toggle button + button {
+  border-left: 1px solid var(--btn-border);
+}
+
+.theme-toggle button.active,
+.theme-toggle button:hover {
+  background: var(--btn-bg);
 }
 
 .post-list {
@@ -37,24 +96,25 @@ body {
 
 .post-list li {
   padding: 10px 0;
-  border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+  border-bottom: 1px dashed var(--rule);
 }
 
 .post-list a {
   display: flex;
   justify-content: space-between;
   gap: 16px;
-  color: #FFF;
+  color: var(--fg);
   text-decoration: none;
 }
 
 .post-list a:hover .post-title {
-  border-bottom: 2px solid #FFF;
+  border-bottom: 2px solid var(--accent);
 }
 
 .post-date {
   opacity: 0.85;
   font-size: 18px;
+  color: var(--muted);
 }
 
 .post p {
@@ -63,7 +123,7 @@ body {
 }
 
 .post code {
-  background: rgba(0, 0, 0, 0.15);
+  background: var(--code-bg);
   padding: 0 4px;
   border-radius: 3px;
 }
