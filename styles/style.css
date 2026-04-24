@@ -43,11 +43,40 @@
   --measure: 680px;
 }
 
+[data-font="plex-serif"] {
+  --font: 'IBM Plex Serif', Georgia, 'Times New Roman', serif;
+  --base-size: 18px;
+  --line-height: 1.65;
+  --measure: 680px;
+}
+
 [data-font="sans"] {
   --font: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
   --base-size: 17px;
   --line-height: 1.6;
   --measure: 680px;
+}
+
+[data-font="ubuntu"] {
+  --font: 'Ubuntu', system-ui, sans-serif;
+  --base-size: 17px;
+  --line-height: 1.6;
+  --measure: 680px;
+}
+
+[data-font="atkinson"] {
+  --font: 'Atkinson Hyperlegible', system-ui, sans-serif;
+  --base-size: 17px;
+  --line-height: 1.6;
+  --measure: 680px;
+}
+
+body {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.page {
+  transition: font-size 0.2s ease;
 }
 
 html, body { height: 100%; }
