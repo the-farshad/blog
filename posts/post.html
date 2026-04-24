@@ -3,14 +3,14 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Blog | Farshad Ghorbani</title>
+  <title>Loading... | Farshad Ghorbani</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=VT323&family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/x-icon" href="./assets/Farshad-Ghorbani.svg">
+  <link rel="icon" type="image/x-icon" href="../assets/Farshad-Ghorbani.svg">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="../styles/style.css">
   <script>
     (function () {
       try {
@@ -28,8 +28,8 @@
 <body>
   <main class="page">
     <header class="page-header">
-      <a href="https://thefarshad.com" class="back-link">&larr; home</a>
-      <h1>Blog</h1>
+      <a href="../index.html" class="back-link">&larr; blog</a>
+      <h1 id="post-title">Loading...</h1>
     </header>
 
     <div class="reader-controls">
@@ -45,37 +45,16 @@
       </div>
     </div>
 
-    <section class="topic">
-      <h2 class="topic-title">notes</h2>
-      <ul class="post-list">
-        <li>
-          <a href="./posts/notes/hello-world.html">
-            <span class="post-date">2026-04-24</span>
-            <span class="post-title">Hello, world</span>
-          </a>
-        </li>
-      </ul>
-    </section>
+    <p id="post-meta" class="post-date"></p>
 
-    <section class="topic">
-      <h2 class="topic-title">research</h2>
-      <ul class="post-list">
-        <li>
-          <a href="./posts/post.html?p=research/first-md-post.md">
-            <span class="post-date">2026-04-24</span>
-            <span class="post-title">First Markdown post</span>
-          </a>
-        </li>
-      </ul>
-    </section>
+    <article id="post-body" class="post">
+      <p>Loading post...</p>
+    </article>
   </main>
 
-  <footer class="site-footer">
-    Built by <a href="https://thefarshad.com">Farshad</a> &middot;
-    <a href="https://github.com/the-farshad/blog">source on GitHub</a>
-  </footer>
-
-  <script src="./scripts/theme.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+  <script src="../scripts/theme.js"></script>
+  <script src="../scripts/post.js"></script>
 </body>
 
 </html>
