@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>blog.thefarshad.com</title>
+    <link>https://blog.thefarshad.com</link>
+    <description>Notes, posts, and ideas from Farshad Ghorbani.</description>
+    <language>en</language>
+    <atom:link href="https://blog.thefarshad.com/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Apr 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Introducing kurdishscholars.org</title>
+      <link>https://blog.thefarshad.com/posts/post.html?p=notes/kurdish-scholars.md</link>
+      <guid isPermaLink="false">blog.thefarshad.com/posts/notes/kurdish-scholars.md</guid>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+      <category>notes</category>
+      <description>A small project I've been building on the side. Sign up, poke around, and tell me what's broken.</description>
+    </item>
+  </channel>
+</rss>
