@@ -32,8 +32,6 @@ Fix it on the monitor side by stopping the HPD toggling. On each PA278QV, change
 | System Setup → USB Charging | Off During Standby |
 | Input Select | DisplayPort |
 
-Also turn off automatic source detection if your monitor's OSD offers it; the user guide does not list that setting.
-
 You still need to restart gnome-shell once to release the VRAM that has already leaked. On Wayland, that means logging out and back in, or restarting the display manager.
 
 **Verification:** a forced DPMS cycle (setting `PowerSaveMode` on `org.gnome.Mutter.DisplayConfig` from 3 to 0) produced no HPD uevents. Over the following days there were no NVKMS allocation failures, and gnome-shell's VRAM use stayed at about 0.5 GB.
