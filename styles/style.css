@@ -173,21 +173,51 @@ body {
 
 .site-footer {
   max-width: var(--measure);
-  margin: 32px auto 40px;
+  margin: 48px auto 40px;
   padding: 16px 24px 0;
   border-top: 1px dashed var(--rule);
-  text-align: center;
-  font-size: 0.8em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: calc(var(--base-size) * 0.8);
   color: var(--muted);
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
 }
 
 .site-footer a {
   color: var(--fg);
+  text-decoration: none;
+  opacity: 0.85;
+}
+
+.site-footer a:hover {
+  opacity: 1;
   text-decoration: underline;
   text-decoration-style: dotted;
 }
 
-.site-footer a:hover { text-decoration-style: solid; }
+.site-footer .to-top {
+  border: 1px solid var(--btn-border);
+  border-radius: 4px;
+  padding: 4px 12px;
+  line-height: 1.2;
+}
+
+.site-footer .to-top:hover {
+  background: var(--btn-bg);
+  text-decoration: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
 
 .post h1, .post h2, .post h3 {
   font-weight: normal;
