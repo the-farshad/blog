@@ -9,6 +9,15 @@
     <lastBuildDate>Tue, 10 Nov 2026 00:00:00 GMT</lastBuildDate>
 
     <item>
+      <title>When You Save One Skill, Do You Lose Another?</title>
+      <link>https://blog.thefarshad.com/posts/post.html?p=research/save-one-skill-lose-another.md</link>
+      <guid isPermaLink="false">blog.thefarshad.com/posts/research/save-one-skill-lose-another.md</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <category>research</category>
+      <description>Protecting the circuit behind one behavior during compression costs bits elsewhere in the model. Does that quietly damage another behavior?</description>
+    </item>
+
+    <item>
       <title>Black Screens After DPMS: How DisplayPort HPD Storms Drained 11 GB of VRAM</title>
       <link>https://blog.thefarshad.com/posts/post.html?p=notes/black-screens-after-dpms.md</link>
       <guid isPermaLink="false">blog.thefarshad.com/posts/notes/black-screens-after-dpms.md</guid>
