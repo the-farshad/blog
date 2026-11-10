@@ -3,7 +3,7 @@ title: Can LLMs Write a Complete Data Science Pipeline? Our AutoML 2025 Paper
 date: 2025-11-10
 ---
 
-Our paper with Dr. Kotthoff, "A Preliminary Evaluation of Large Language Models for Data Science Code Generation," appeared in the non-archival track of AutoML 2025, the International Conference on Automated Machine Learning. You can [read it on OpenReview](https://openreview.net/pdf?id=U0aJinoLlS).
+Our paper, "A Preliminary Evaluation of Large Language Models for Data Science Code Generation," appeared in the non-archival track of AutoML 2025, the International Conference on Automated Machine Learning. You can [read it on OpenReview](https://openreview.net/pdf?id=U0aJinoLlS).
 
 ## The question
 
