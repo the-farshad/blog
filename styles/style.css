@@ -248,8 +248,12 @@ body {
 }
 
 .post img {
-  max-width: 100%;
+  display: block;
+  width: auto;
   height: auto;
+  max-width: 100%;
+  max-height: 360px;
+  margin: 0 auto 1em;
 }
 
 .post-list {
