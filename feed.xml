@@ -6,7 +6,16 @@
     <description>Notes, posts, and ideas from Farshad Ghorbani.</description>
     <language>en</language>
     <atom:link href="https://blog.thefarshad.com/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 24 Apr 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Black Screens After DPMS: How DisplayPort HPD Storms Drained 11 GB of VRAM</title>
+      <link>https://blog.thefarshad.com/posts/post.html?p=notes/black-screens-after-dpms.md</link>
+      <guid isPermaLink="false">blog.thefarshad.com/posts/notes/black-screens-after-dpms.md</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <category>notes</category>
+      <description>Displays on multi-GPU NVIDIA systems running GNOME on Wayland stayed black after DPMS. The cause was DisplayPort hotplug events from one monitor model, and the fix was in the monitor's settings.</description>
+    </item>
 
     <item>
       <title>Introducing kurdishscholars.org</title>
