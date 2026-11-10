@@ -27,4 +27,4 @@ chmod +x boxglance
 ./boxglance --watch
 ```
 
-boxglance is released under the MIT license. The code is [on GitHub](https://github.com/the-farshad/boxglance).
+boxglance is released under the GPL-3.0 license. The code is [on GitHub](https://github.com/the-farshad/boxglance).

@@ -22,4 +22,4 @@ chmod +x slurmtop
 SLURMTOP_HOST=login.mycluster.example ./slurmtop
 ```
 
-slurmtop is released under the MIT license. The code is [on GitHub](https://github.com/the-farshad/slurmtop).
+slurmtop is released under the GPL-3.0 license. The code is [on GitHub](https://github.com/the-farshad/slurmtop).
