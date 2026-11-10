@@ -20,9 +20,9 @@ That suggests a simple strategy for compression. If we know which components a b
 
 The memory budget is fixed. Every bit spent protecting one behavior's components is a bit taken from somewhere else, so the rest of the model is squeezed harder.
 
-Suppose we protect the heads that track names in the first example. That leaves fewer bits for other components, including those that compare years in the second, which could weaken that behavior. Behaviors may also share components, which makes the overall effect harder to predict. Saving one behavior could quietly damage another.
+Suppose we protect the heads that track names in the first example. That leaves fewer bits for other components, including those that compare years in the second, which could weaken that behavior. Behaviors may also share components, which makes the overall effect harder to predict.
 
-So the question is not only whether protection works, but what it costs: when we protect the components behind one behavior during compression, does another behavior get worse?
+So the question is not only whether protection works, but what it costs.
 
 ## Why it matters
 
