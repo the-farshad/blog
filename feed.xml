@@ -70,5 +70,14 @@
       <category>notes</category>
       <description>A small project I've been building on the side. Sign up, poke around, and tell me what's broken.</description>
     </item>
+
+    <item>
+      <title>Can LLMs Write a Complete Data Science Pipeline? Our AutoML 2025 Paper</title>
+      <link>https://blog.thefarshad.com/posts/post.html?p=research/llm-data-science-code.md</link>
+      <guid isPermaLink="false">blog.thefarshad.com/posts/research/llm-data-science-code.md</guid>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 GMT</pubDate>
+      <category>research</category>
+      <description>We asked more than 30 commercial and open-weight LLMs to write a complete machine learning pipeline for a basic data science task. A few got it right on the first try; many never produced working code.</description>
+    </item>
   </channel>
 </rss>
