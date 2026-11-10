@@ -1,6 +1,6 @@
 ---
 title: Can We Compress Language Models Without Losing Their Skills? My JCDL '26 Paper
-date: 2026-11-10
+date: 2026-10-27
 ---
 
 My Doctoral Consortium paper, "Selective Circuit Preservation During Compression of Large Language Models for Edge Deployment", is out in the proceedings of JCDL '26, the 2026 ACM/IEEE Joint Conference on Digital Libraries. It is open access under CC BY 4.0, and you can [read it on the ACM Digital Library](https://doi.org/10.1145/3805696.3847134).

@@ -1,6 +1,6 @@
 ---
 title: "boxglance: CPU, Memory, Disk and GPU Stats at a Glance"
-date: 2026-11-10
+date: 2026-07-29
 ---
 
 [boxglance](https://github.com/the-farshad/boxglance) is a single Bash script that shows what a machine is doing on one screen: CPU, memory, disks and NVIDIA GPUs.

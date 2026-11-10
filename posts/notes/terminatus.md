@@ -1,6 +1,6 @@
 ---
 title: "Terminatus: A Gatus Status Page in the Terminal"
-date: 2026-11-10
+date: 2026-11-09
 ---
 
 [Gatus](https://github.com/TwiN/gatus) is a self-hosted health dashboard that checks your services and shows the results on a status page in the browser. [Terminatus](https://github.com/the-farshad/Terminatus) brings that status page to the terminal.

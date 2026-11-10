@@ -1,6 +1,6 @@
 ---
 title: "slurmtop: A Terminal Dashboard for Slurm Jobs"
-date: 2026-11-10
+date: 2026-11-06
 ---
 
 [slurmtop](https://github.com/the-farshad/slurmtop) is a single Bash script that shows your Slurm jobs, their priority, how busy the GPU partitions are, and your storage, all on one screen that refreshes live.
