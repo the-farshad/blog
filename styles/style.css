@@ -247,6 +247,11 @@ body {
   text-align: left;
 }
 
+.post img {
+  max-width: 100%;
+  height: auto;
+}
+
 .post-list {
   list-style: none;
   padding: 0;

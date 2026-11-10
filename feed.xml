@@ -9,6 +9,42 @@
     <lastBuildDate>Tue, 10 Nov 2026 00:00:00 GMT</lastBuildDate>
 
     <item>
+      <title>Can We Compress Language Models Without Losing Their Skills? My JCDL '26 Paper</title>
+      <link>https://blog.thefarshad.com/posts/post.html?p=research/selective-circuit-preservation.md</link>
+      <guid isPermaLink="false">blog.thefarshad.com/posts/research/selective-circuit-preservation.md</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <category>research</category>
+      <description>My JCDL '26 Doctoral Consortium paper proposes protecting the circuits behind a model's key capabilities while the rest is pruned and quantized for edge devices.</description>
+    </item>
+
+    <item>
+      <title>Terminatus: A Gatus Status Page in the Terminal</title>
+      <link>https://blog.thefarshad.com/posts/post.html?p=notes/terminatus.md</link>
+      <guid isPermaLink="false">blog.thefarshad.com/posts/notes/terminatus.md</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <category>notes</category>
+      <description>Every Gatus endpoint's state, response time, uptime and recent checks on one terminal screen.</description>
+    </item>
+
+    <item>
+      <title>boxglance: CPU, Memory, Disk and GPU Stats at a Glance</title>
+      <link>https://blog.thefarshad.com/posts/post.html?p=notes/boxglance.md</link>
+      <guid isPermaLink="false">blog.thefarshad.com/posts/notes/boxglance.md</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <category>notes</category>
+      <description>A single Bash script that shows a machine's CPU, memory, disk and NVIDIA GPU stats on one screen.</description>
+    </item>
+
+    <item>
+      <title>slurmtop: A Terminal Dashboard for Slurm Jobs</title>
+      <link>https://blog.thefarshad.com/posts/post.html?p=notes/slurmtop.md</link>
+      <guid isPermaLink="false">blog.thefarshad.com/posts/notes/slurmtop.md</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <category>notes</category>
+      <description>Your Slurm jobs, their priority, GPU partition load and your storage on one live terminal screen.</description>
+    </item>
+
+    <item>
       <title>Black Screens After DPMS: How DisplayPort HPD Storms Drained 11 GB of VRAM</title>
       <link>https://blog.thefarshad.com/posts/post.html?p=notes/black-screens-after-dpms.md</link>
       <guid isPermaLink="false">blog.thefarshad.com/posts/notes/black-screens-after-dpms.md</guid>
