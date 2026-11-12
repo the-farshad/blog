@@ -6,7 +6,7 @@
     <description>Notes, posts, and ideas from Farshad Ghorbani.</description>
     <language>en</language>
     <atom:link href="https://blog.thefarshad.com/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 10 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 00:00:00 GMT</lastBuildDate>
 
     <item>
       <title>When You Save One Skill, Do You Lose Another?</title>
@@ -60,6 +60,15 @@
       <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
       <category>notes</category>
       <description>A single Bash script that shows a machine's CPU, memory, disk and NVIDIA GPU stats on one screen.</description>
+    </item>
+
+    <item>
+      <title>Retiring kurdishscholars.org</title>
+      <link>https://blog.thefarshad.com/posts/post.html?p=notes/retiring-kurdish-scholars.md</link>
+      <guid isPermaLink="false">blog.thefarshad.com/posts/notes/retiring-kurdish-scholars.md</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
+      <category>notes</category>
+      <description>I have taken the live platform offline. The code stays open source on GitHub, and I would be glad to help anyone who wants to continue it.</description>
     </item>
 
     <item>
